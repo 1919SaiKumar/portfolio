@@ -147,6 +147,12 @@ body {
     padding: 10px 15px;
     margin: 5px;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.skill-icons span:hover{
+    transform: scale(0.9);
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
 }
 
 .contact p {
