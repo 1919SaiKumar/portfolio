@@ -1,0 +1,1034 @@
+
+body{
+    background-color: black;
+}
+.logo a{
+    color: white;
+}
+
+.container .row img{
+    height: auto;
+}
+/* Default styles for all screen sizes */
+
+/* Extra Small Devices (Phones) */
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    .container-fluid{
+        display: flex;
+        padding: 5px 30px;
+    }
+    .container-fluid a{
+        color: white;
+        font-size: 20px;
+    }
+    .container-fluid a{
+        color: white;
+    }
+
+    .collapse ul li a { 
+        color: white;
+    }
+    .hero{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+    }
+    .left img{
+        border-radius: 40% 70% 40% 70%;
+        box-shadow: 0 0 20px white;
+    }
+    .right{
+        text-align: center;
+    }
+    .hero-content h1{
+        font-size: 45px;
+        color: white;
+    }
+    .hero-content h2{
+        font-size: 30px;
+        color: white;
+    }
+    .hero-content h3{
+        font-size: 25px;
+        color: white;
+    }
+    .hero-content p{
+        font-size: 14px;
+        color: white;
+        padding: 10px 30px ;
+    }
+    .hero-content span{
+        color: orangered;
+    }
+    .hero-btns{
+        
+
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .hero-btns a{
+        text-decoration: none;
+        color: white;
+    }
+    .hero-btns .contact-btn{
+        border: 2px solid orangered;
+        padding: 10px 20px;
+        border-radius: 50px;
+        color: white;
+    }
+    .hero-btns .Resume-btn{
+        background-color: orangered;
+        padding: 10px 20px;
+        border-radius: 50px
+    }
+    .about{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .about h1{
+        color: white;
+
+    }
+    .about-left p{
+        color: whitesmoke;
+    }
+    .skill-icons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px;
+    }
+    .skill-icons span{
+        height: 200px;
+        width: 200px;
+    }
+    .skill-icons img{
+        height: 200px;
+    }
+    .skills{
+        margin-top: 30px;
+        text-align: center;
+        color: white;
+    }
+    .experience{
+        margin-top: 30px;
+        text-align: center;
+        color: white;
+    }
+    .experience-cer{
+        padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    }
+    .experience-cer div{
+        background-color: orangered;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        padding: 30px;
+        box-shadow: 0 0  10px white;
+    }
+    .experience-cer div a{
+        text-decoration: none;
+        color: white;
+
+    }
+    
+.contact {
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+.contact input, .contact textarea, .contact button {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 1rem;
+}
+.social{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.social a{
+    text-decoration: none;
+    color: orange;
+}
+
+.footer {
+    background: #1e1e1e;
+    text-align: center;
+    padding: 20px;
+}
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.social-links a {
+    text-decoration: none;
+    color: orange;
+
+}
+.footer p{
+    color: white;
+}
+
+.exp{
+    display: flex;
+    gap: 20px;
+}
+}
+
+/* Small Devices (Tablets) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    .container-fluid{
+        display: flex;
+        padding: 5px 30px;
+    }
+    .container-fluid a{
+        color: white;
+        font-size: 20px;
+    }
+    .container-fluid a{
+        color: white;
+    }
+
+    .collapse ul li a { 
+        color: white;
+    }
+    .hero{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+    }
+    .left img{
+        border-radius: 40% 70% 40% 70%;
+        box-shadow: 0 0 20px white;
+    }
+    .right{
+        text-align: center;
+    }
+    .hero-content h1{
+        font-size: 45px;
+        color: white;
+    }
+    .hero-content h2{
+        font-size: 30px;
+        color: white;
+    }
+    .hero-content h3{
+        font-size: 25px;
+        color: white;
+    }
+    .hero-content p{
+        font-size: 14px;
+        color: white;
+        padding: 10px 30px ;
+    }
+    .hero-content span{
+        color: orangered;
+    }
+    .hero-btns{
+        
+
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .hero-btns a{
+        text-decoration: none;
+        color: white;
+    }
+    .hero-btns .contact-btn{
+        border: 2px solid orangered;
+        padding: 10px 20px;
+        border-radius: 50px;
+        color: white;
+    }
+    .hero-btns .Resume-btn{
+        background-color: orangered;
+        padding: 10px 20px;
+        border-radius: 50px
+    }
+    .about{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .about h1{
+        color: white;
+
+    }
+    .about-left p{
+        color: whitesmoke;
+    }
+    .skill-icons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px;
+    }
+    .skill-icons span{
+        height: 200px;
+        width: 200px;
+    }
+    .skill-icons img{
+        height: 200px;
+    }
+    .skills{
+        margin-top: 30px;
+        text-align: center;
+        color: white;
+    }
+    .experience{
+        margin-top: 30px;
+        text-align: center;
+        color: white;
+    }
+    .experience-cer{
+        padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    }
+    .experience-cer div{
+        background-color: orangered;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        padding: 30px;
+        box-shadow: 0 0  10px white;
+    }
+    .experience-cer div a{
+        text-decoration: none;
+        color: white;
+
+    }
+    
+.contact {
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+.contact input, .contact textarea, .contact button {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 1rem;
+}
+.social{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.social a{
+    text-decoration: none;
+    color: orange;
+}
+
+.footer {
+    background: #1e1e1e;
+    text-align: center;
+    padding: 20px;
+}
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.social-links a {
+    text-decoration: none;
+    color: orange;
+
+}
+.footer p{
+    color: white;
+}
+}
+
+/* Medium Devices (Laptops) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+    .container-fluid{
+        display: flex;
+        padding: 5px 50px;
+    }
+    .container-fluid a{
+        color: white;
+        font-size: 20px;
+    }
+    .collapse{
+        margin-left: 350px;
+    }
+    .container-fluid a{
+        color: white;
+    }
+
+    .collapse ul li a { 
+        color: white;
+    }
+    .container-fluid{
+        display: flex;
+        padding: 5px 30px;
+    }
+    .container-fluid a{
+        color: white;
+        font-size: 20px;
+    }
+    .container-fluid a{
+        color: white;
+    }
+
+    .collapse ul li a { 
+        color: white;
+    }
+    .hero{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+    }
+    .left img{
+        border-radius: 40% 70% 40% 70%;
+        box-shadow: 0 0 20px white;
+    }
+    .right{
+        text-align: center;
+    }
+    .hero-content h1{
+        font-size: 45px;
+        color: white;
+    }
+    .hero-content h2{
+        font-size: 30px;
+        color: white;
+    }
+    .hero-content h3{
+        font-size: 25px;
+        color: white;
+    }
+    .hero-content p{
+        font-size: 14px;
+        color: white;
+        padding: 10px 30px ;
+    }
+    .hero-content span{
+        color: orangered;
+    }
+    .hero-btns{
+        
+
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .hero-btns a{
+        text-decoration: none;
+        color: white;
+    }
+    .hero-btns .contact-btn{
+        border: 2px solid orangered;
+        padding: 10px 20px;
+        border-radius: 50px;
+        color: white;
+    }
+    .hero-btns .Resume-btn{
+        background-color: orangered;
+        padding: 10px 20px;
+        border-radius: 50px
+    }
+    .about{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .about h1{
+        color: white;
+
+    }
+    .about-left p{
+        color: whitesmoke;
+    }
+    .skill-icons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px;
+    }
+    .skill-icons span{
+        height: 200px;
+        width: 200px;
+    }
+    .skill-icons img{
+        height: 200px;
+    }
+    .skills{
+        margin-top: 30px;
+        text-align: center;
+        color: white;
+    }
+    .experience{
+        margin-top: 30px;
+        text-align: center;
+        color: white;
+    }
+    .experience-cer{
+        padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    }
+    .experience-cer div{
+        background-color: orangered;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        padding: 30px;
+        box-shadow: 0 0  10px white;
+    }
+    .experience-cer div a{
+        text-decoration: none;
+        color: white;
+
+    }
+    
+.contact {
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+.contact input, .contact textarea, .contact button {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 1rem;
+}
+.social{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.social a{
+    text-decoration: none;
+    color: orange;
+}
+
+.footer {
+    background: #1e1e1e;
+    text-align: center;
+    padding: 20px;
+}
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.social-links a {
+    text-decoration: none;
+    color: orange;
+
+}
+.footer p{
+    color: white;
+}
+}
+
+/* Large Devices (Desktops) */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    body {
+        font-size: 20px;
+    }
+    .container-fluid{
+        display: flex;
+        padding: 5px 80px;
+    }
+    .container-fluid a{
+        color: white;
+        font-size: 20px;
+    }
+    .collapse{
+        margin-left: 350px;
+    }
+    .container-fluid a{
+        color: white;
+    }
+
+    .collapse ul li a { 
+        color: white;
+    }
+    .container-fluid{
+        display: flex;
+        padding: 5px 30px;
+    }
+    .container-fluid a{
+        color: white;
+        font-size: 20px;
+    }
+    .container-fluid a{
+        color: white;
+    }
+
+    .collapse ul li a { 
+        color: white;
+    }
+    .hero{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+    }
+    .left img{
+        border-radius: 40% 70% 40% 70%;
+        box-shadow: 0 0 20px white;
+    }
+    .right{
+        text-align: center;
+    }
+    .hero-content h1{
+        font-size: 45px;
+        color: white;
+    }
+    .hero-content h2{
+        font-size: 30px;
+        color: white;
+    }
+    .hero-content h3{
+        font-size: 25px;
+        color: white;
+    }
+    .hero-content p{
+        font-size: 14px;
+        color: white;
+        padding: 10px 30px ;
+    }
+    .hero-content span{
+        color: orangered;
+    }
+    .hero-btns{
+        
+
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .hero-btns a{
+        text-decoration: none;
+        color: white;
+    }
+    .hero-btns .contact-btn{
+        border: 2px solid orangered;
+        padding: 10px 20px;
+        border-radius: 50px;
+        color: white;
+    }
+    .hero-btns .Resume-btn{
+        background-color: orangered;
+        padding: 10px 20px;
+        border-radius: 50px
+    }
+    .about{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .about h1{
+        color: white;
+
+    }
+    .about-left p{
+        color: whitesmoke;
+    }
+    .skill-icons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px;
+    }
+    .skill-icons span{
+        height: 200px;
+        width: 200px;
+    }
+    .skill-icons img{
+        height: 200px;
+    }
+    .skills{
+        margin-top: 30px;
+        text-align: center;
+        color: white;
+    }
+    .experience{
+        margin-top: 30px;
+        text-align: center;
+        color: white;
+    }
+    .experience-cer{
+        padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    }
+    .experience-cer div{
+        background-color: orangered;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        padding: 30px;
+        box-shadow: 0 0  10px white;
+    }
+    .experience-cer div a{
+        text-decoration: none;
+        color: white;
+
+    }
+    
+.contact {
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+.contact input, .contact textarea, .contact button {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 1rem;
+}
+.social{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.social a{
+    text-decoration: none;
+    color: orange;
+}
+
+.footer {
+    background: #1e1e1e;
+    text-align: center;
+    padding: 20px;
+}
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.social-links a {
+    text-decoration: none;
+    color: orange;
+
+}
+.footer p{
+    color: white;
+}
+}
+
+/* Extra Large Screens (Large Desktops, 4K) */
+@media only screen and (min-width: 1441px) {
+    body {
+        color: white;
+
+    }
+    
+    .container-fluid{
+        display: flex;
+        padding: 5px 100px;
+    }
+    .container-fluid a{
+        color: white;
+        font-size: 20px;
+    }
+    .collapse{
+        margin-left: 750px;
+    }
+    .container-fluid a{
+        color: white;
+    }
+
+    .collapse ul li a { 
+        color: white;
+    }
+    .container{
+        height: 80vh;
+    }
+    .hero{
+        padding-top: 10px;
+        display: flex;
+        gap: 30px;
+        flex-direction: row-reverse ;
+
+    }
+    .left{
+        text-align: left;
+        
+    }
+    .left img{
+        border-radius: 40% 70% 40% 70%;
+        box-shadow: 0 0 20px white;
+        width: 600px;
+    
+    }
+    .right{
+        text-align: left;
+        padding-top: 120px;
+        width: 50%;
+    }
+    .hero-content h1{
+        font-size: 75px;
+        color: white;
+    }
+    .hero-content h2{
+        font-size: 40px;
+        color: white;
+    }
+    .hero-content h3{
+        font-size: 35px;
+        color: white;
+    }
+    .hero-content p{
+        font-size: 14px;
+        color: white;
+        padding: 10px 0px ;
+    }
+    .hero-content span{
+        color: orangered;
+    }
+    .hero-btns{
+        
+
+        display: flex;
+        justify-content: start;
+        gap: 30px;
+    }
+    .hero-btns a{
+        text-decoration: none;
+        color: white;
+    }
+    .hero-btns .contact-btn{
+        border: 2px solid orangered;
+        padding: 10px 20px;
+        border-radius: 50px;
+        color: white;
+    }
+    .hero-btns .Resume-btn{
+        background-color: orangered;
+        padding: 10px 20px;
+        border-radius: 50px
+    }
+    .about{
+        margin-top: 100px;
+        text-align: center;
+    }
+    .about-content{
+        display: flex;
+        padding: 50px 100px ;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    .about h1{
+        color: white;
+
+    }
+    .about-left{
+        width: 50%;
+        text-align: left;
+        padding-top: 30px;
+    }
+    .about-left p{
+        color: whitesmoke;
+        font-size: 20px;
+    }
+    .skill-icons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 20px 130px;
+    }
+    .skill-icons span{
+        height: 300px;
+        width: 300px;
+    }
+    .skill-icons img{
+        height: 280px;
+    }
+    .skills{
+        margin-top: 30px;
+        text-align: center;
+        color: white;
+    }
+    .experience{
+        margin-top: 30px;
+        text-align: center;
+        color: white;
+        padding: 60px;
+    }
+    
+    
+.contact {
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+.contact input, .contact textarea, .contact button {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 1rem;
+}
+.social{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+}
+.social a{
+    text-decoration: none;
+    color: orange;
+}
+
+.footer {
+    background: #1e1e1e;
+    text-align: center;
+    padding: 20px;
+}
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.social-links a {
+    text-decoration: none;
+    color: orange;
+
+}
+.footer p{
+    color: white;
+}
+.card{
+    height: 250px;
+    padding-top: 50px;
+}
+.col{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.exp{
+    margin-top: 50px;
+}
+.contact-in{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.forminput{
+    width: 40%;
+}
+.con-data{
+    display: flex;
+    padding-left: 200px;
+    gap: 50px;
+    align-items: center;
+    justify-content: start;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-in {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.con-data {
+    display: flex;
+}
+.contact-ipn{
+    display: flex;
+}
+h1 {
+}
+
+.con-data p {
+    font-size: 16px;
+    color: #ededed;
+    text-align: start;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+
+
+
+}
